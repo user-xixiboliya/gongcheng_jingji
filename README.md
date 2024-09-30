@@ -1,26 +1,9 @@
-ÊµÑéÆ÷²Ä:
-	MiniSTM32F103¿ª·¢°åV3°æ±¾
-	
-ÊµÑéÄ¿µÄ:
-	±¾ÊµÑéÎªÐÂ½¨¹¤³ÌÊµÑé£¬½ö¹©´ó¼ÒÐÂ½¨¹¤³ÌÊ±²Î¿¼¡£
-	ÐÂ½¨¹¤³ÌÏêÏ¸²½Öè£¬Çë¿´¡¶STM32²»ÍêÈ«ÊÖ²á-¿âº¯Êý°æ±¾¡·µÚ3.3½Ú¡£
-	
- 
-ÊµÑéÏÖÏó:
-	±¾ÊµÑéÏÂÔØºó£¬B0,B1½»ÌæÉÁË¸
-	
-×¢ÒâÊÂÏî:
-	ÎÞ.
+# Engineering Competition
+è¿™æ˜¯æŸé€šå¤§å­¦çš„robocupçš„ä¸çŸ¥åç¥–ä¼ ä»£ç ï¼Œå¸Œæœ›ä½ èƒ½çœ‹æ‡‚è¿™ä»½ä»£ç å¹¶åšå‡ºè´¡çŒ®ï¼
+`STM32F10X_FWLib`å’Œ`OBJ`æ˜¯stm32å¼€å‘æ¿çš„ç¡¬ä»¶åº“ä»¥åŠä¸€äº›ä¸²å£æ–¹é¢çš„ä»£ç 
+`open mv`å®žçŽ°äº†ç®€å•çš„å¾ªè¿¹åŠŸèƒ½
+`HARDWARE`æ˜¯æ¯”è¾ƒé‡è¦çš„libåº“ï¼Œå®žçŽ°äº†åŸºæœ¬çš„æŽ§åˆ¶ï¼Œåˆ©ç”¨`LobotSerialServo`è¿›è¡ŒåŠ¨ä½œç»„çš„ç¼–å†™
 
-
-			ÕýµãÔ­×Ó@ALIENTEK 
-			¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-			µç»°£º020-38271790
-			´«Õæ£º020-36773971
-			¹ºÂò£ºhttp://eboard.taobao.com
-			¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-			¼¼ÊõÂÛÌ³£ºwww.openedv.com
-			
 			
 			
 			
