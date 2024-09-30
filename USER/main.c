@@ -13,6 +13,7 @@
 #include "Uart4.h"
 #include "Usart3.h"
 #include "jingzou.h"
+
 #include "stm32f10x.h"
 #include <stdio.h>
 
@@ -21,7 +22,6 @@ u8 sj=0;
 u8 i=0;
 u8 j=0;
 u8 a=0;
-extern u8 Res;
 int main(void)
  {
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2); 
@@ -33,29 +33,37 @@ int main(void)
 	Uart3_init(9600);
 	Uart4_init(9600);
 	LED0=0;
-	LED1=0;	 
-	//delay_ms(1005); 
-  //guizhong();
+	LED1=0;
+	
+	servo_angle4(90);
+	servo_angle3(90);
+	servo_angle2(40);
+	servo_angle1(40);
+	delay_ms(805); 
+	servo_angle4(10);
+	servo_angle3(10);
+	servo_angle2(100);
+	servo_angle1(80);
+	 delay_ms(805); 
 	//qibu();
   while(1)
 	{
-		USART_SendData(USART3,Res);
-    if(Res == '1')
+	delay_ms(3000);
+		if(a==0)
 		{
-		zoulu();
+			guizhong();
 		}
-		else if(Res=='2')
+		else if(a==1)
 		{
-		zuozhuan();
+			zouluend();
 		}
-		else if(Res == '3')
+		else if(a==2)
 		{
-		youzhuan();
+			zuozhuanend();
 		}
-		else if(Res == '4')
+		else if(a==3)
 		{
-		gostraight_while_slightly_turn_left();
+			youzhuanend();
 		}
 	}
-	
  }

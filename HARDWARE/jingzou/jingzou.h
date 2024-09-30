@@ -1,7 +1,7 @@
 //#ifndef __JINGZOU_H
 #define __JINGZOU_H
 #include "led.h"
-//#include "delay.h"
+#include "delay.h"
 #include "sys.h"
 #include "exit.h" 
 
@@ -35,4 +35,4 @@ void youzhuanend(void);
 void ceshi(void);
 void ceshizuo(void);
 void one_step_stright(void);
-void gostraight_while_slightly_turn_left(void);
+
