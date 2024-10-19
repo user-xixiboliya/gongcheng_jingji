@@ -22,6 +22,7 @@ u8 sj=0;
 u8 i=0;
 u8 j=0;
 u8 a=0;
+extern u8 Res;
 int main(void)
  {
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2); 

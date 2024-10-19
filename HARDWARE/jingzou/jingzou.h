@@ -36,3 +36,6 @@ void ceshi(void);
 void ceshizuo(void);
 void one_step_stright(void);
 
+void Bend_straight_ahead(void);
+void left_foot(void);
+void right_foot(void);

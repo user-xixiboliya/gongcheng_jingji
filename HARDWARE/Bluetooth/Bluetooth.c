@@ -125,7 +125,7 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 			}
 			else if(Res=='2')//左转
 			{
-				zuozhuan();
+				Bend_straight_ahead();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='3')//右转
@@ -133,9 +133,9 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 				youzhuan();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='4')//跨越
+			else if(Res=='4')//弯道左转
 			{	
-				yuezhang2();
+				
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='5'/*&&i==0&&k==1*/)  //往前一步

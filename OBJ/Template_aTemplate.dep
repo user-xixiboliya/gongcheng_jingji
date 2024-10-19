@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'aTemplate': (DO NOT MODIFY !)
-F (.\main.c)(0x66829F8D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x670C94DE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\HARDWARE\LED\led.h)(0x64E34966)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
 I (..\USER\stm32f10x.h)(0x4D783CB6)
@@ -41,10 +41,10 @@ I (..\HARDWARE\LobotSerialServo\bool.h)(0x5901606C)
 I (..\HARDWARE\LobotSerialServo\LobotSerialServo.h)(0x5901606C)
 I (..\HARDWARE\Bluetooth\Bluetooth.h)(0x64E34966)
 I (..\HARDWARE\DANCE\dance.h)(0x6511850C)
-I (..\HARDWARE\Uart4\Uart4.h)(0x64F45716)
+I (..\HARDWARE\Uart4\Uart4.h)(0x6703DAA9)
 I (E:\Keil_5.25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (..\HARDWARE\Usart3\Usart3.h)(0x64F447A4)
-I (..\HARDWARE\jingzou\jingzou.h)(0x6655DEC6)
+I (..\HARDWARE\jingzou\jingzou.h)(0x6713B5BD)
 F (.\stm32f10x_it.c)(0x4EBEACB2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x4D99A428)
 I (stm32f10x.h)(0x4D783CB6)
@@ -871,7 +871,7 @@ I (..\SYSTEM\uart\uart.h)(0x6055E76E)
 I (E:\Keil_5.25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (..\HARDWARE\LobotSerialServo\bool.h)(0x5901606C)
 I (..\HARDWARE\LobotSerialServo\LobotSerialServo.h)(0x5901606C)
-F (..\README.TXT)(0x55CC3216)()
+F (..\README.TXT)(0x00000000)()
 F (..\HARDWARE\LED\LED.c)(0x64E355C2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (..\HARDWARE\LED\led.h)(0x64E34966)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
@@ -938,7 +938,7 @@ I (E:\Keil_5.25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (..\SYSTEM\uart\uart.h)(0x6055E76E)
 I (E:\Keil_5.25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (..\HARDWARE\LobotSerialServo\bool.h)(0x5901606C)
-F (..\HARDWARE\DANCE\dance.c)(0x667FC7D2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dance.o --omf_browse ..\obj\dance.crf --depend ..\obj\dance.d)
+F (..\HARDWARE\DANCE\dance.c)(0x667FC7D4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dance.o --omf_browse ..\obj\dance.crf --depend ..\obj\dance.d)
 I (..\HARDWARE\DANCE\dance.h)(0x6511850C)
 I (..\HARDWARE\LED\led.h)(0x64E34966)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
@@ -1044,7 +1044,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F4160)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB6)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB6)
 I (..\SYSTEM\delay\delay.h)(0x55CC2E5A)
-F (..\HARDWARE\PWM\pwm.c)(0x66829E66)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\pwm.o --omf_browse ..\obj\pwm.crf --depend ..\obj\pwm.d)
+F (..\HARDWARE\PWM\pwm.c)(0x66829E68)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\pwm.o --omf_browse ..\obj\pwm.crf --depend ..\obj\pwm.d)
 I (..\HARDWARE\PWM\pwm.h)(0x64E5C28A)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
 I (..\USER\stm32f10x.h)(0x4D783CB6)
@@ -1076,7 +1076,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F4160)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB6)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB6)
 I (..\HARDWARE\LED\led.h)(0x64E34966)
-F (..\HARDWARE\Bluetooth\Bluetooth.c)(0x6655E007)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\bluetooth.o --omf_browse ..\obj\bluetooth.crf --depend ..\obj\bluetooth.d)
+F (..\HARDWARE\Bluetooth\Bluetooth.c)(0x6713B91F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\bluetooth.o --omf_browse ..\obj\bluetooth.crf --depend ..\obj\bluetooth.d)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
 I (..\USER\stm32f10x.h)(0x4D783CB6)
 I (..\CORE\core_cm3.h)(0x4D523B5A)
@@ -1115,7 +1115,7 @@ I (..\HARDWARE\EXIT\exit.h)(0x643B5740)
 I (..\SYSTEM\uart\uart.h)(0x6055E76E)
 I (..\HARDWARE\LobotSerialServo\bool.h)(0x5901606C)
 I (..\HARDWARE\LobotSerialServo\LobotSerialServo.h)(0x5901606C)
-I (..\HARDWARE\jingzou\jingzou.h)(0x6655DEC6)
+I (..\HARDWARE\jingzou\jingzou.h)(0x6713B5BD)
 F (..\HARDWARE\Usart3\Usart3.c)(0x65A3E1D8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart3.o --omf_browse ..\obj\usart3.crf --depend ..\obj\usart3.d)
 I (..\HARDWARE\Usart3\Usart3.h)(0x64F447A4)
 I (E:\Keil_5.25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
@@ -1156,9 +1156,9 @@ I (..\HARDWARE\EXIT\exit.h)(0x643B5740)
 I (..\SYSTEM\uart\uart.h)(0x6055E76E)
 I (..\HARDWARE\LobotSerialServo\bool.h)(0x5901606C)
 I (..\HARDWARE\LobotSerialServo\LobotSerialServo.h)(0x5901606C)
-I (..\HARDWARE\jingzou\jingzou.h)(0x6655DEC6)
-F (..\HARDWARE\Uart4\Uart4.c)(0x65298DB6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\uart4.o --omf_browse ..\obj\uart4.crf --depend ..\obj\uart4.d)
-I (..\HARDWARE\Uart4\Uart4.h)(0x64F45716)
+I (..\HARDWARE\jingzou\jingzou.h)(0x6713B5BD)
+F (..\HARDWARE\Uart4\Uart4.c)(0x670C95C2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\uart4.o --omf_browse ..\obj\uart4.crf --depend ..\obj\uart4.d)
+I (..\HARDWARE\Uart4\Uart4.h)(0x6703DAA9)
 I (E:\Keil_5.25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (E:\Keil_5.25\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
@@ -1197,8 +1197,9 @@ I (..\HARDWARE\EXIT\exit.h)(0x643B5740)
 I (..\SYSTEM\uart\uart.h)(0x6055E76E)
 I (..\HARDWARE\LobotSerialServo\bool.h)(0x5901606C)
 I (..\HARDWARE\LobotSerialServo\LobotSerialServo.h)(0x5901606C)
-I (..\HARDWARE\jingzou\jingzou.h)(0x6655DEC6)
-F (..\HARDWARE\jingzou\jingzou.c)(0x6682BCF1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\jingzou.o --omf_browse ..\obj\jingzou.crf --depend ..\obj\jingzou.d)
+I (..\HARDWARE\jingzou\jingzou.h)(0x6713B5BD)
+I (..\HARDWARE\Usart3\Usart3.h)(0x64F447A4)
+F (..\HARDWARE\jingzou\jingzou.c)(0x6713B91E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\LobotSerialServo -I ..\SYSTEM\uart -I ..\HARDWARE\EXIT -I ..\HARDWARE\DANCE -I ..\HARDWARE\KEY -I ..\HARDWARE\Bluetooth -I ..\HARDWARE\PWM -I ..\HARDWARE\Usart3 -I ..\HARDWARE\Uart4 -I ..\HARDWARE\jingzou-I.\RTE\_aTemplate-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IE:\Keil_5.25\ARM\CMSIS\Include-IE:\Keil_5.25\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\jingzou.o --omf_browse ..\obj\jingzou.crf --depend ..\obj\jingzou.d)
 I (..\HARDWARE\DANCE\dance.h)(0x6511850C)
 I (..\HARDWARE\LED\led.h)(0x64E34966)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
@@ -1237,4 +1238,4 @@ I (E:\Keil_5.25\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (..\HARDWARE\LobotSerialServo\bool.h)(0x5901606C)
 I (..\HARDWARE\LobotSerialServo\LobotSerialServo.h)(0x5901606C)
 I (..\HARDWARE\PWM\pwm.h)(0x64E5C28A)
-I (..\HARDWARE\jingzou\jingzou.h)(0x6655DEC6)
+I (..\HARDWARE\jingzou\jingzou.h)(0x6713B5BD)
