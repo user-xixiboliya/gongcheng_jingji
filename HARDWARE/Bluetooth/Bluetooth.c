@@ -133,14 +133,14 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 				youzhuan();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='4')//弯道左转
+			else if(Res=='4')//抬左脚
 			{	
-				
+				left_foot();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='5'/*&&i==0&&k==1*/)  //往前一步
+			else if(Res=='5')  //抬右脚
 			{	
-				one_step_stright();
+				right_foot();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='6')  //右转

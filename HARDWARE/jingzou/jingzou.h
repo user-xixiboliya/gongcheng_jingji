@@ -39,3 +39,5 @@ void one_step_stright(void);
 void Bend_straight_ahead(void);
 void left_foot(void);
 void right_foot(void);
+void improved_straight(void);
+void quick_straight(void);

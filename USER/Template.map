@@ -441,28 +441,28 @@ Image Symbol Table
     .text                                    0x08008794   Section        0  key.o(.text)
     .text                                    0x0800889c   Section        0  pwm.o(.text)
     .text                                    0x08008d24   Section        0  bluetooth.o(.text)
-    .text                                    0x08008f10   Section        0  usart3.o(.text)
-    .text                                    0x08009260   Section        0  uart4.o(.text)
-    .text                                    0x0800935c   Section        0  jingzou.o(.text)
-    .text                                    0x0800d144   Section        2  use_no_semi_2.o(.text)
-    .text                                    0x0800d146   Section      138  rt_memcpy_v6.o(.text)
-    .text                                    0x0800d1d0   Section        0  heapauxi.o(.text)
-    .text                                    0x0800d1d6   Section        2  use_no_semi.o(.text)
-    .text                                    0x0800d1d8   Section      100  rt_memcpy_w.o(.text)
-    .text                                    0x0800d23c   Section       74  sys_stackheap_outer.o(.text)
-    .text                                    0x0800d286   Section        0  exit.o(.text)
-    .text                                    0x0800d298   Section        8  libspace.o(.text)
-    x$fpl$dadd                               0x0800d2a0   Section      336  daddsub_clz.o(x$fpl$dadd)
-    _dadd1                                   0x0800d2b1   Thumb Code     0  daddsub_clz.o(x$fpl$dadd)
-    x$fpl$ddiv                               0x0800d3f0   Section      688  ddiv.o(x$fpl$ddiv)
-    ddiv_entry                               0x0800d3f7   Thumb Code     0  ddiv.o(x$fpl$ddiv)
-    x$fpl$dfixu                              0x0800d6a0   Section       90  dfixu.o(x$fpl$dfixu)
-    x$fpl$dflt                               0x0800d6fa   Section       46  dflt_clz.o(x$fpl$dflt)
-    x$fpl$dnaninf                            0x0800d728   Section      156  dnaninf.o(x$fpl$dnaninf)
-    x$fpl$dretinf                            0x0800d7c4   Section       12  dretinf.o(x$fpl$dretinf)
-    x$fpl$dsub                               0x0800d7d0   Section      468  daddsub_clz.o(x$fpl$dsub)
-    _dsub1                                   0x0800d7e1   Thumb Code     0  daddsub_clz.o(x$fpl$dsub)
-    x$fpl$usenofp                            0x0800d9a4   Section        0  usenofp.o(x$fpl$usenofp)
+    .text                                    0x08008f14   Section        0  usart3.o(.text)
+    .text                                    0x08009264   Section        0  uart4.o(.text)
+    .text                                    0x08009360   Section        0  jingzou.o(.text)
+    .text                                    0x0800dd42   Section        2  use_no_semi_2.o(.text)
+    .text                                    0x0800dd44   Section      138  rt_memcpy_v6.o(.text)
+    .text                                    0x0800ddce   Section        0  heapauxi.o(.text)
+    .text                                    0x0800ddd4   Section        2  use_no_semi.o(.text)
+    .text                                    0x0800ddd6   Section      100  rt_memcpy_w.o(.text)
+    .text                                    0x0800de3a   Section       74  sys_stackheap_outer.o(.text)
+    .text                                    0x0800de84   Section        0  exit.o(.text)
+    .text                                    0x0800de98   Section        8  libspace.o(.text)
+    x$fpl$dadd                               0x0800dea0   Section      336  daddsub_clz.o(x$fpl$dadd)
+    _dadd1                                   0x0800deb1   Thumb Code     0  daddsub_clz.o(x$fpl$dadd)
+    x$fpl$ddiv                               0x0800dff0   Section      688  ddiv.o(x$fpl$ddiv)
+    ddiv_entry                               0x0800dff7   Thumb Code     0  ddiv.o(x$fpl$ddiv)
+    x$fpl$dfixu                              0x0800e2a0   Section       90  dfixu.o(x$fpl$dfixu)
+    x$fpl$dflt                               0x0800e2fa   Section       46  dflt_clz.o(x$fpl$dflt)
+    x$fpl$dnaninf                            0x0800e328   Section      156  dnaninf.o(x$fpl$dnaninf)
+    x$fpl$dretinf                            0x0800e3c4   Section       12  dretinf.o(x$fpl$dretinf)
+    x$fpl$dsub                               0x0800e3d0   Section      468  daddsub_clz.o(x$fpl$dsub)
+    _dsub1                                   0x0800e3e1   Thumb Code     0  daddsub_clz.o(x$fpl$dsub)
+    x$fpl$usenofp                            0x0800e5a4   Section        0  usenofp.o(x$fpl$usenofp)
     .data                                    0x20000000   Section        5  main.o(.data)
     .data                                    0x20000008   Section       20  system_stm32f10x.o(.data)
     .data                                    0x2000001c   Section       20  stm32f10x_rcc.o(.data)
@@ -885,69 +885,71 @@ Image Symbol Table
     _sys_exit                                0x08008d25   Thumb Code     6  bluetooth.o(.text)
     fputc1                                   0x08008d2b   Thumb Code    24  bluetooth.o(.text)
     bluetooth_init                           0x08008d43   Thumb Code   152  bluetooth.o(.text)
-    USART1_IRQHandler                        0x08008ddb   Thumb Code   292  bluetooth.o(.text)
-    Uart3_init                               0x08008f11   Thumb Code   164  usart3.o(.text)
-    USART3_IRQHandler                        0x08008fb5   Thumb Code   656  usart3.o(.text)
-    Uart4_init                               0x08009261   Thumb Code   172  uart4.o(.text)
-    UART4_IRQHandler                         0x0800930d   Thumb Code    40  uart4.o(.text)
-    USART4_Send_Byte                         0x08009335   Thumb Code    28  uart4.o(.text)
-    zoulu                                    0x0800935d   Thumb Code  1514  jingzou.o(.text)
-    left                                     0x08009947   Thumb Code     2  jingzou.o(.text)
-    zuozhuan                                 0x08009949   Thumb Code   678  jingzou.o(.text)
-    youzhuan                                 0x08009bef   Thumb Code  1580  jingzou.o(.text)
-    Bend_straight_ahead                      0x0800a21b   Thumb Code  1508  jingzou.o(.text)
-    left_foot                                0x0800a7ff   Thumb Code   806  jingzou.o(.text)
-    right_foot                               0x0800ab25   Thumb Code   810  jingzou.o(.text)
-    qibu                                     0x0800ae4f   Thumb Code   292  jingzou.o(.text)
-    yuandiyou                                0x0800af73   Thumb Code   844  jingzou.o(.text)
-    yuandizuo                                0x0800b2bf   Thumb Code   872  jingzou.o(.text)
-    yuandizuo2                               0x0800b627   Thumb Code   844  jingzou.o(.text)
-    yuezhang2                                0x0800b973   Thumb Code  2346  jingzou.o(.text)
-    zuozhuanzhi                              0x0800c29d   Thumb Code     2  jingzou.o(.text)
-    youzhuanzhi                              0x0800c29f   Thumb Code     2  jingzou.o(.text)
-    guizhong2                                0x0800c2a1   Thumb Code   166  jingzou.o(.text)
-    yuandiyouxiao                            0x0800c347   Thumb Code   844  jingzou.o(.text)
-    yuandizuoxiao                            0x0800c693   Thumb Code   844  jingzou.o(.text)
-    guizhong3                                0x0800c9df   Thumb Code   166  jingzou.o(.text)
-    zouluend                                 0x0800ca85   Thumb Code   130  jingzou.o(.text)
-    zuozhuanend                              0x0800cb07   Thumb Code   130  jingzou.o(.text)
-    youzhuanend                              0x0800cb89   Thumb Code   130  jingzou.o(.text)
-    ceshi                                    0x0800cc0b   Thumb Code     2  jingzou.o(.text)
-    ceshizuo                                 0x0800cc0d   Thumb Code     2  jingzou.o(.text)
-    one_step_stright                         0x0800cc0f   Thumb Code  1334  jingzou.o(.text)
-    __use_no_semihosting                     0x0800d145   Thumb Code     2  use_no_semi_2.o(.text)
-    __aeabi_memcpy                           0x0800d147   Thumb Code     0  rt_memcpy_v6.o(.text)
-    __rt_memcpy                              0x0800d147   Thumb Code   138  rt_memcpy_v6.o(.text)
-    _memcpy_lastbytes                        0x0800d1ad   Thumb Code     0  rt_memcpy_v6.o(.text)
-    __use_two_region_memory                  0x0800d1d1   Thumb Code     2  heapauxi.o(.text)
-    __rt_heap_escrow$2region                 0x0800d1d3   Thumb Code     2  heapauxi.o(.text)
-    __rt_heap_expand$2region                 0x0800d1d5   Thumb Code     2  heapauxi.o(.text)
-    __I$use$semihosting                      0x0800d1d7   Thumb Code     0  use_no_semi.o(.text)
-    __use_no_semihosting_swi                 0x0800d1d7   Thumb Code     2  use_no_semi.o(.text)
-    __aeabi_memcpy4                          0x0800d1d9   Thumb Code     0  rt_memcpy_w.o(.text)
-    __aeabi_memcpy8                          0x0800d1d9   Thumb Code     0  rt_memcpy_w.o(.text)
-    __rt_memcpy_w                            0x0800d1d9   Thumb Code   100  rt_memcpy_w.o(.text)
-    _memcpy_lastbytes_aligned                0x0800d221   Thumb Code     0  rt_memcpy_w.o(.text)
-    __user_setup_stackheap                   0x0800d23d   Thumb Code    74  sys_stackheap_outer.o(.text)
-    exit                                     0x0800d287   Thumb Code    18  exit.o(.text)
-    __user_libspace                          0x0800d299   Thumb Code     8  libspace.o(.text)
-    __user_perproc_libspace                  0x0800d299   Thumb Code     0  libspace.o(.text)
-    __user_perthread_libspace                0x0800d299   Thumb Code     0  libspace.o(.text)
-    __aeabi_dadd                             0x0800d2a1   Thumb Code     0  daddsub_clz.o(x$fpl$dadd)
-    _dadd                                    0x0800d2a1   Thumb Code   332  daddsub_clz.o(x$fpl$dadd)
-    __aeabi_ddiv                             0x0800d3f1   Thumb Code     0  ddiv.o(x$fpl$ddiv)
-    _ddiv                                    0x0800d3f1   Thumb Code   552  ddiv.o(x$fpl$ddiv)
-    __aeabi_d2uiz                            0x0800d6a1   Thumb Code     0  dfixu.o(x$fpl$dfixu)
-    _dfixu                                   0x0800d6a1   Thumb Code    90  dfixu.o(x$fpl$dfixu)
-    __aeabi_i2d                              0x0800d6fb   Thumb Code     0  dflt_clz.o(x$fpl$dflt)
-    _dflt                                    0x0800d6fb   Thumb Code    46  dflt_clz.o(x$fpl$dflt)
-    __fpl_dnaninf                            0x0800d729   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
-    __fpl_dretinf                            0x0800d7c5   Thumb Code    12  dretinf.o(x$fpl$dretinf)
-    __aeabi_dsub                             0x0800d7d1   Thumb Code     0  daddsub_clz.o(x$fpl$dsub)
-    _dsub                                    0x0800d7d1   Thumb Code   464  daddsub_clz.o(x$fpl$dsub)
-    Region$$Table$$Base                      0x0800d9a4   Number         0  anon$$obj.o(Region$$Table)
-    __I$use$fp                               0x0800d9a4   Number         0  usenofp.o(x$fpl$usenofp)
-    Region$$Table$$Limit                     0x0800d9c4   Number         0  anon$$obj.o(Region$$Table)
+    USART1_IRQHandler                        0x08008ddb   Thumb Code   296  bluetooth.o(.text)
+    Uart3_init                               0x08008f15   Thumb Code   164  usart3.o(.text)
+    USART3_IRQHandler                        0x08008fb9   Thumb Code   656  usart3.o(.text)
+    Uart4_init                               0x08009265   Thumb Code   172  uart4.o(.text)
+    UART4_IRQHandler                         0x08009311   Thumb Code    40  uart4.o(.text)
+    USART4_Send_Byte                         0x08009339   Thumb Code    28  uart4.o(.text)
+    zoulu                                    0x08009361   Thumb Code  1514  jingzou.o(.text)
+    left                                     0x0800994b   Thumb Code     2  jingzou.o(.text)
+    zuozhuan                                 0x0800994d   Thumb Code  1388  jingzou.o(.text)
+    youzhuan                                 0x08009eb9   Thumb Code  1580  jingzou.o(.text)
+    Bend_straight_ahead                      0x0800a4e5   Thumb Code  1508  jingzou.o(.text)
+    left_foot                                0x0800aac9   Thumb Code   806  jingzou.o(.text)
+    right_foot                               0x0800adef   Thumb Code   810  jingzou.o(.text)
+    quick_straight                           0x0800b119   Thumb Code  1386  jingzou.o(.text)
+    improved_straight                        0x0800b683   Thumb Code  1388  jingzou.o(.text)
+    qibu                                     0x0800bbef   Thumb Code     2  jingzou.o(.text)
+    yuandiyou                                0x0800bbf1   Thumb Code   844  jingzou.o(.text)
+    yuandizuo                                0x0800bf3d   Thumb Code   872  jingzou.o(.text)
+    yuandizuo2                               0x0800c2a5   Thumb Code   844  jingzou.o(.text)
+    yuezhang2                                0x0800c5f1   Thumb Code  2346  jingzou.o(.text)
+    zuozhuanzhi                              0x0800cf1b   Thumb Code     2  jingzou.o(.text)
+    youzhuanzhi                              0x0800cf1d   Thumb Code     2  jingzou.o(.text)
+    guizhong2                                0x0800cf1f   Thumb Code   166  jingzou.o(.text)
+    yuandiyouxiao                            0x0800cfc5   Thumb Code   844  jingzou.o(.text)
+    yuandizuoxiao                            0x0800d311   Thumb Code   844  jingzou.o(.text)
+    guizhong3                                0x0800d65d   Thumb Code   166  jingzou.o(.text)
+    zouluend                                 0x0800d703   Thumb Code     2  jingzou.o(.text)
+    zuozhuanend                              0x0800d705   Thumb Code   130  jingzou.o(.text)
+    youzhuanend                              0x0800d787   Thumb Code   130  jingzou.o(.text)
+    ceshi                                    0x0800d809   Thumb Code     2  jingzou.o(.text)
+    ceshizuo                                 0x0800d80b   Thumb Code     2  jingzou.o(.text)
+    one_step_stright                         0x0800d80d   Thumb Code  1334  jingzou.o(.text)
+    __use_no_semihosting                     0x0800dd43   Thumb Code     2  use_no_semi_2.o(.text)
+    __aeabi_memcpy                           0x0800dd45   Thumb Code     0  rt_memcpy_v6.o(.text)
+    __rt_memcpy                              0x0800dd45   Thumb Code   138  rt_memcpy_v6.o(.text)
+    _memcpy_lastbytes                        0x0800ddab   Thumb Code     0  rt_memcpy_v6.o(.text)
+    __use_two_region_memory                  0x0800ddcf   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_escrow$2region                 0x0800ddd1   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_expand$2region                 0x0800ddd3   Thumb Code     2  heapauxi.o(.text)
+    __I$use$semihosting                      0x0800ddd5   Thumb Code     0  use_no_semi.o(.text)
+    __use_no_semihosting_swi                 0x0800ddd5   Thumb Code     2  use_no_semi.o(.text)
+    __aeabi_memcpy4                          0x0800ddd7   Thumb Code     0  rt_memcpy_w.o(.text)
+    __aeabi_memcpy8                          0x0800ddd7   Thumb Code     0  rt_memcpy_w.o(.text)
+    __rt_memcpy_w                            0x0800ddd7   Thumb Code   100  rt_memcpy_w.o(.text)
+    _memcpy_lastbytes_aligned                0x0800de1f   Thumb Code     0  rt_memcpy_w.o(.text)
+    __user_setup_stackheap                   0x0800de3b   Thumb Code    74  sys_stackheap_outer.o(.text)
+    exit                                     0x0800de85   Thumb Code    18  exit.o(.text)
+    __user_libspace                          0x0800de99   Thumb Code     8  libspace.o(.text)
+    __user_perproc_libspace                  0x0800de99   Thumb Code     0  libspace.o(.text)
+    __user_perthread_libspace                0x0800de99   Thumb Code     0  libspace.o(.text)
+    __aeabi_dadd                             0x0800dea1   Thumb Code     0  daddsub_clz.o(x$fpl$dadd)
+    _dadd                                    0x0800dea1   Thumb Code   332  daddsub_clz.o(x$fpl$dadd)
+    __aeabi_ddiv                             0x0800dff1   Thumb Code     0  ddiv.o(x$fpl$ddiv)
+    _ddiv                                    0x0800dff1   Thumb Code   552  ddiv.o(x$fpl$ddiv)
+    __aeabi_d2uiz                            0x0800e2a1   Thumb Code     0  dfixu.o(x$fpl$dfixu)
+    _dfixu                                   0x0800e2a1   Thumb Code    90  dfixu.o(x$fpl$dfixu)
+    __aeabi_i2d                              0x0800e2fb   Thumb Code     0  dflt_clz.o(x$fpl$dflt)
+    _dflt                                    0x0800e2fb   Thumb Code    46  dflt_clz.o(x$fpl$dflt)
+    __fpl_dnaninf                            0x0800e329   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
+    __fpl_dretinf                            0x0800e3c5   Thumb Code    12  dretinf.o(x$fpl$dretinf)
+    __aeabi_dsub                             0x0800e3d1   Thumb Code     0  daddsub_clz.o(x$fpl$dsub)
+    _dsub                                    0x0800e3d1   Thumb Code   464  daddsub_clz.o(x$fpl$dsub)
+    Region$$Table$$Base                      0x0800e5a4   Number         0  anon$$obj.o(Region$$Table)
+    __I$use$fp                               0x0800e5a4   Number         0  usenofp.o(x$fpl$usenofp)
+    Region$$Table$$Limit                     0x0800e5c4   Number         0  anon$$obj.o(Region$$Table)
     bt                                       0x20000000   Data           1  main.o(.data)
     sj                                       0x20000001   Data           1  main.o(.data)
     i                                        0x20000002   Data           1  main.o(.data)
@@ -979,9 +981,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000131
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000da14, Max: 0x00040000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0000e614, Max: 0x00040000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x0000d9c4, Max: 0x00040000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x0000e5c4, Max: 0x00040000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1053,46 +1055,47 @@ Memory Map of the image
     0x080086fc   0x080086fc   0x00000098   Code   RO          617    .text               exit.o
     0x08008794   0x08008794   0x00000108   Code   RO          632    .text               key.o
     0x0800889c   0x0800889c   0x00000488   Code   RO          645    .text               pwm.o
-    0x08008d24   0x08008d24   0x000001ec   Code   RO          657    .text               bluetooth.o
-    0x08008f10   0x08008f10   0x00000350   Code   RO          678    .text               usart3.o
-    0x08009260   0x08009260   0x000000fc   Code   RO          701    .text               uart4.o
-    0x0800935c   0x0800935c   0x00003de8   Code   RO          721    .text               jingzou.o
-    0x0800d144   0x0800d144   0x00000002   Code   RO          735    .text               c_w.l(use_no_semi_2.o)
-    0x0800d146   0x0800d146   0x0000008a   Code   RO          737    .text               c_w.l(rt_memcpy_v6.o)
-    0x0800d1d0   0x0800d1d0   0x00000006   Code   RO          739    .text               c_w.l(heapauxi.o)
-    0x0800d1d6   0x0800d1d6   0x00000002   Code   RO          763    .text               c_w.l(use_no_semi.o)
-    0x0800d1d8   0x0800d1d8   0x00000064   Code   RO          766    .text               c_w.l(rt_memcpy_w.o)
-    0x0800d23c   0x0800d23c   0x0000004a   Code   RO          788    .text               c_w.l(sys_stackheap_outer.o)
-    0x0800d286   0x0800d286   0x00000012   Code   RO          790    .text               c_w.l(exit.o)
-    0x0800d298   0x0800d298   0x00000008   Code   RO          798    .text               c_w.l(libspace.o)
-    0x0800d2a0   0x0800d2a0   0x00000150   Code   RO          743    x$fpl$dadd          fz_ws.l(daddsub_clz.o)
-    0x0800d3f0   0x0800d3f0   0x000002b0   Code   RO          750    x$fpl$ddiv          fz_ws.l(ddiv.o)
-    0x0800d6a0   0x0800d6a0   0x0000005a   Code   RO          753    x$fpl$dfixu         fz_ws.l(dfixu.o)
-    0x0800d6fa   0x0800d6fa   0x0000002e   Code   RO          758    x$fpl$dflt          fz_ws.l(dflt_clz.o)
-    0x0800d728   0x0800d728   0x0000009c   Code   RO          768    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
-    0x0800d7c4   0x0800d7c4   0x0000000c   Code   RO          770    x$fpl$dretinf       fz_ws.l(dretinf.o)
-    0x0800d7d0   0x0800d7d0   0x000001d4   Code   RO          745    x$fpl$dsub          fz_ws.l(daddsub_clz.o)
-    0x0800d9a4   0x0800d9a4   0x00000000   Code   RO          772    x$fpl$usenofp       fz_ws.l(usenofp.o)
-    0x0800d9a4   0x0800d9a4   0x00000020   Data   RO          921    Region$$Table       anon$$obj.o
+    0x08008d24   0x08008d24   0x000001f0   Code   RO          657    .text               bluetooth.o
+    0x08008f14   0x08008f14   0x00000350   Code   RO          678    .text               usart3.o
+    0x08009264   0x08009264   0x000000fc   Code   RO          701    .text               uart4.o
+    0x08009360   0x08009360   0x000049e2   Code   RO          721    .text               jingzou.o
+    0x0800dd42   0x0800dd42   0x00000002   Code   RO          735    .text               c_w.l(use_no_semi_2.o)
+    0x0800dd44   0x0800dd44   0x0000008a   Code   RO          737    .text               c_w.l(rt_memcpy_v6.o)
+    0x0800ddce   0x0800ddce   0x00000006   Code   RO          739    .text               c_w.l(heapauxi.o)
+    0x0800ddd4   0x0800ddd4   0x00000002   Code   RO          763    .text               c_w.l(use_no_semi.o)
+    0x0800ddd6   0x0800ddd6   0x00000064   Code   RO          766    .text               c_w.l(rt_memcpy_w.o)
+    0x0800de3a   0x0800de3a   0x0000004a   Code   RO          788    .text               c_w.l(sys_stackheap_outer.o)
+    0x0800de84   0x0800de84   0x00000012   Code   RO          790    .text               c_w.l(exit.o)
+    0x0800de96   0x0800de96   0x00000002   PAD
+    0x0800de98   0x0800de98   0x00000008   Code   RO          798    .text               c_w.l(libspace.o)
+    0x0800dea0   0x0800dea0   0x00000150   Code   RO          743    x$fpl$dadd          fz_ws.l(daddsub_clz.o)
+    0x0800dff0   0x0800dff0   0x000002b0   Code   RO          750    x$fpl$ddiv          fz_ws.l(ddiv.o)
+    0x0800e2a0   0x0800e2a0   0x0000005a   Code   RO          753    x$fpl$dfixu         fz_ws.l(dfixu.o)
+    0x0800e2fa   0x0800e2fa   0x0000002e   Code   RO          758    x$fpl$dflt          fz_ws.l(dflt_clz.o)
+    0x0800e328   0x0800e328   0x0000009c   Code   RO          768    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
+    0x0800e3c4   0x0800e3c4   0x0000000c   Code   RO          770    x$fpl$dretinf       fz_ws.l(dretinf.o)
+    0x0800e3d0   0x0800e3d0   0x000001d4   Code   RO          745    x$fpl$dsub          fz_ws.l(daddsub_clz.o)
+    0x0800e5a4   0x0800e5a4   0x00000000   Code   RO          772    x$fpl$usenofp       fz_ws.l(usenofp.o)
+    0x0800e5a4   0x0800e5a4   0x00000020   Data   RO          921    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0800d9c4, Size: 0x000006d0, Max: 0x0000c000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0800e5c4, Size: 0x000006d0, Max: 0x0000c000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x0800d9c4   0x00000005   Data   RW            2    .data               main.o
-    0x20000005   0x0800d9c9   0x00000003   PAD
-    0x20000008   0x0800d9cc   0x00000014   Data   RW          199    .data               system_stm32f10x.o
-    0x2000001c   0x0800d9e0   0x00000014   Data   RW          427    .data               stm32f10x_rcc.o
-    0x20000030   0x0800d9f4   0x00000004   Data   RW          513    .data               delay.o
-    0x20000034   0x0800d9f8   0x00000005   Data   RW          544    .data               uart.o
-    0x20000039   0x0800d9fd   0x00000001   Data   RW          633    .data               key.o
-    0x2000003a   0x0800d9fe   0x00000002   PAD
-    0x2000003c   0x0800da00   0x00000007   Data   RW          659    .data               bluetooth.o
-    0x20000043   0x0800da07   0x00000001   PAD
-    0x20000044   0x0800da08   0x00000006   Data   RW          680    .data               usart3.o
-    0x2000004a   0x0800da0e   0x00000003   Data   RW          703    .data               uart4.o
-    0x2000004d   0x0800da11   0x00000003   PAD
+    0x20000000   0x0800e5c4   0x00000005   Data   RW            2    .data               main.o
+    0x20000005   0x0800e5c9   0x00000003   PAD
+    0x20000008   0x0800e5cc   0x00000014   Data   RW          199    .data               system_stm32f10x.o
+    0x2000001c   0x0800e5e0   0x00000014   Data   RW          427    .data               stm32f10x_rcc.o
+    0x20000030   0x0800e5f4   0x00000004   Data   RW          513    .data               delay.o
+    0x20000034   0x0800e5f8   0x00000005   Data   RW          544    .data               uart.o
+    0x20000039   0x0800e5fd   0x00000001   Data   RW          633    .data               key.o
+    0x2000003a   0x0800e5fe   0x00000002   PAD
+    0x2000003c   0x0800e600   0x00000007   Data   RW          659    .data               bluetooth.o
+    0x20000043   0x0800e607   0x00000001   PAD
+    0x20000044   0x0800e608   0x00000006   Data   RW          680    .data               usart3.o
+    0x2000004a   0x0800e60e   0x00000003   Data   RW          703    .data               uart4.o
+    0x2000004d   0x0800e611   0x00000003   PAD
     0x20000050        -       0x00000010   Zero   RW          543    .bss                uart.o
     0x20000060        -       0x00000010   Zero   RW          578    .bss                lobotserialservo.o
     0x20000070        -       0x00000060   Zero   RW          799    .bss                c_w.l(libspace.o)
@@ -1107,12 +1110,12 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       492         18          0          7          0       3553   bluetooth.o
+       496         18          0          7          0       3557   bluetooth.o
          0          0          0          0          0         32   core_cm3.o
      25124          0          0          0          0      11351   dance.o
        212         18          0          4          0        971   delay.o
        152          0          0          0          0        821   exit.o
-     15848          0          0          0          0       7847   jingzou.o
+     18914          0          0          0          0       9140   jingzou.o
        264         12          0          1          0        800   key.o
         72          4          0          0          0        459   led.o
        444          8          0          0         16       3146   lobotserialservo.o
@@ -1132,7 +1135,7 @@ Image component sizes
        848         28          0          6          0       2222   usart3.o
 
     ----------------------------------------------------------------------
-     53112        468        336         80       1568     348562   Object Totals
+     56182        468        336         80       1568     349859   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          4          0          0          9          0          0   (incl. Padding)
 
@@ -1170,8 +1173,8 @@ Image component sizes
          0          0          0          0          0          0   usenofp.o
 
     ----------------------------------------------------------------------
-      2300        176          0          0         96       1532   Library Totals
-         4          0          0          0          0          0   (incl. Padding)
+      2302        176          0          0         96       1532   Library Totals
+         6          0          0          0          0          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -1181,7 +1184,7 @@ Image component sizes
       1796        164          0          0          0        800   fz_ws.l
 
     ----------------------------------------------------------------------
-      2300        176          0          0         96       1532   Library Totals
+      2302        176          0          0         96       1532   Library Totals
 
     ----------------------------------------------------------------------
 
@@ -1190,15 +1193,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     55412        644        336         80       1664     347802   Grand Totals
-     55412        644        336         80       1664     347802   ELF Image Totals
-     55412        644        336         80          0          0   ROM Totals
+     58484        644        336         80       1664     349099   Grand Totals
+     58484        644        336         80       1664     349099   ELF Image Totals
+     58484        644        336         80          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                55748 (  54.44kB)
+    Total RO  Size (Code + RO Data)                58820 (  57.44kB)
     Total RW  Size (RW Data + ZI Data)              1744 (   1.70kB)
-    Total ROM Size (Code + RO Data + RW Data)      55828 (  54.52kB)
+    Total ROM Size (Code + RO Data + RW Data)      58900 (  57.52kB)
 
 ==============================================================================
 
