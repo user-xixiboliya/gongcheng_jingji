@@ -121,16 +121,16 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 			//
 			if(Res=='1')
 			{
-				zoulu();
+				quick_straight();
 			}
 			else if(Res=='2')//左转
 			{
-				Bend_straight_ahead();
+				zuozhuan();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='3')//右转
 			{
-				youzhuan();
+				improved_straight();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='4')//抬左脚

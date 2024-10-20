@@ -85,7 +85,7 @@ Section Cross References
     bluetooth.o(.text) refers to misc.o(.text) for NVIC_Init
     bluetooth.o(.text) refers to stm32f10x_usart.o(.text) for USART_Init
     bluetooth.o(.text) refers to delay.o(.text) for delay_ms
-    bluetooth.o(.text) refers to jingzou.o(.text) for zoulu
+    bluetooth.o(.text) refers to jingzou.o(.text) for quick_straight
     bluetooth.o(.text) refers to dance.o(.text) for yuezhang
     bluetooth.o(.text) refers to bluetooth.o(.data) for USART_RX_STA
     bluetooth.o(.bss) refers (Special) to use_no_semi_2.o(.text) for __use_no_semihosting
