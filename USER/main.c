@@ -46,7 +46,7 @@ int main(void)
 	servo_angle2(100);
 	servo_angle1(80);
 	 delay_ms(805); 
-	//qibu();
+
   while(1)
 	{
 	delay_ms(3000);

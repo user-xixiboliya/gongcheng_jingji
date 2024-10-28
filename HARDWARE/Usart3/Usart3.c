@@ -86,7 +86,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				yuandiyouxiao();
 				yuezhang2();
 				USART_SendData(UART4,Res);
-				qibu();
+			
 				e=0;
 			}
 			else if(Res=='2'&&e==1)
@@ -95,7 +95,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				yuandiyouxiao();
 				yuezhang2();
 				USART_SendData(UART4,Res);
-				qibu();
+			//qibu();
 				e=0;
 			}
 			else if(Res=='3'&&e==1)
@@ -105,7 +105,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				yuandiyouxiao();
 				yuezhang2();
 				USART_SendData(UART4,Res);
-				qibu();
+			//qibu();
 				e=0;
 			}
 			if(Res=='5')//越障
@@ -127,7 +127,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				yuandizuoxiao();
 				yuezhang2();
 				USART_SendData(UART4,Res);
-				qibu();
+				
 				e=0;
 			}
 			else if(Res=='7'&&e==1)
@@ -136,7 +136,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				yuandizuoxiao();
 				yuezhang2();
 				USART_SendData(UART4,Res);
-				qibu();
+				//qibu();
 				e=0;
 			}
 			else if(Res=='8'&&e==1)
@@ -146,7 +146,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				yuandizuoxiao();
 				yuezhang2();
 				USART_SendData(UART4,Res);
-				qibu();
+				//qibu();
 				e=0;
 			}
 			
@@ -157,7 +157,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				guizhong();
 				USART_SendData(UART4,'A');
 				delay_ms(800);
-				qibu();
+				//qibu();
 			}
 			else if(Res=='B')
 			{	
@@ -165,7 +165,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				guizhong();
 				USART_SendData(UART4,'B');
 				delay_ms(800);
-				qibu();
+				//qibu();
 			}
 			else if(Res=='C')
 			{	
@@ -173,7 +173,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				guizhong();
 				USART_SendData(UART4,'C');
 				delay_ms(800);
-				qibu();
+				//qibu();
 			}
 			else if(Res=='D')
 			{	
@@ -181,7 +181,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				guizhong();
 				USART_SendData(UART4,'D');
 				delay_ms(800);
-				qibu();
+				//qibu();
 			}
 			else if(Res=='E')
 			{	
@@ -189,7 +189,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				guizhong();
 				USART_SendData(UART4,'E');
 				delay_ms(800);
-				qibu();
+			//	qibu();
 			}
 			else if(Res=='F')
 			{	
@@ -197,7 +197,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				guizhong();
 				USART_SendData(UART4,'F');
 				delay_ms(800);
-				qibu();
+				//qibu();
 			}
 			else if(Res=='G')
 			{	
@@ -205,7 +205,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				guizhong();
 				USART_SendData(UART4,'G');
 				delay_ms(800);
-				qibu();
+				//qibu();
 				//zoulu();
 			}
 			else if(Res=='H')
@@ -214,7 +214,7 @@ void USART3_IRQHandler(void)                	//串口3中断服务程序(视觉模块)
 				guizhong();
 				USART_SendData(UART4,'H');
 				delay_ms(800);
-				qibu();
+				//qibu();
 				//zoulu();
 			}
 		  b=1;

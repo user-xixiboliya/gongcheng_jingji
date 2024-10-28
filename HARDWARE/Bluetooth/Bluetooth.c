@@ -133,9 +133,9 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 				improved_straight();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='4')//抬左脚
+			else if(Res=='4')//举双手
 			{	
-				left_foot();
+				raise_both_hands();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='5')  //抬右脚
@@ -143,9 +143,9 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 				right_foot();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='6')  //右转
+			else if(Res=='6')  //转头
 			{	
-					yuezhang();
+					shift_head();
 			}
 			else if(Res=='7'/*&&i==0&&k==1*/)  //右转
 			{	
@@ -165,14 +165,13 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 			{	
 				guizhong3();
 				yuandizuo2();
-				qibu();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='7'/*&&i==0&&k==1&&f==0*/)  //右转
 			{	
 				guizhong3();
 				yuandiyou();
-				qibu();
+			
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='8'/*&&i==0&&k==1*/)//直道左转

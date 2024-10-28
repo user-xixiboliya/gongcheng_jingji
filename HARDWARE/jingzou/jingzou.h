@@ -12,7 +12,7 @@
 void zoulu(void);
 void zuozhuan(void);
 void youzhuan(void);
-void qibu(void);
+
 
 void zuozhuanzhi(void);
 void youzhuanzhi(void);
@@ -41,3 +41,5 @@ void left_foot(void);
 void right_foot(void);
 void improved_straight(void);
 void quick_straight(void);
+void raise_both_hands(void);
+void shift_head(void);
