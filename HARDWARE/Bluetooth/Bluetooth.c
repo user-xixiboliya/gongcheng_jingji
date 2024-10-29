@@ -133,32 +133,33 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 				improved_straight();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='4')//举双手
+			else if(Res=='4')//应该是举左手
+			{	
+				raise_left_hands();
+				USART_SendData(UART4,Res);
+			}
+			else if(Res=='5')  //举右手
+			{	
+				raise_right_hands();
+				
+				USART_SendData(UART4,Res);
+			}
+			else if(Res=='6')  //抬左腿
+			{	
+					USART_SendData(UART4,Res);
+			}
+			else if(Res=='7')  //抬右腿
+			{	
+				  right_foot();
+			}
+			else if(Res=='8')  //举双手
 			{	
 				raise_both_hands();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='5')  //抬右脚
+			else if(Res=='9')  //摇头
 			{	
-				right_foot();
-				USART_SendData(UART4,Res);
-			}
-			else if(Res=='6')  //转头
-			{	
-					shift_head();
-			}
-			else if(Res=='7'/*&&i==0&&k==1*/)  //右转
-			{	
-					guizhong();
-			}
-			else if(Res=='8'/*&&i==0&&k==1&&f==1*/)  //右转
-			{	
-				zuozhuan();
-				USART_SendData(UART4,Res);
-			}
-			else if(Res=='9'/*&&i==0&&k==1&&f==1*/)  //右转
-			{	
-				youzhuan();
+				shift_head();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='0'/*&&i==0&&k==1&&f==0*/)  //右转

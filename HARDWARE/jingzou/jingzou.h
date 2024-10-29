@@ -43,3 +43,5 @@ void improved_straight(void);
 void quick_straight(void);
 void raise_both_hands(void);
 void shift_head(void);
+void raise_right_hands(void);
+void raise_left_hands(void);

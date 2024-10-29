@@ -1156,11 +1156,71 @@ LobotSerialServoMove(7, 540, 3000);
 LobotSerialServoMove(8, 425, 3000);
 LobotSerialServoMove(9, 388, 3000);
 LobotSerialServoMove(10, 525, 3000);	
-servo_angle2(20);
-servo_angle3(20);
+servo_angle2(5);
+servo_angle3(5);
+delay_ms(3005);
+}
+void raise_right_hands(void)
+{
+	LobotSerialServoMove(1, 510, 300);
+LobotSerialServoMove(2, 495, 300);
+LobotSerialServoMove(3, 502, 300);
+LobotSerialServoMove(4, 502, 300);
+LobotSerialServoMove(5, 498, 300);
+LobotSerialServoMove(6, 502, 300);
+LobotSerialServoMove(7, 540, 300);
+LobotSerialServoMove(8, 425, 300);
+LobotSerialServoMove(9, 388, 300);
+LobotSerialServoMove(10, 525, 300);
+
+delay_ms(305);
+
+
+LobotSerialServoMove(1, 510, 3000);
+LobotSerialServoMove(2, 495, 3000);
+LobotSerialServoMove(3, 502, 3000);
+LobotSerialServoMove(4, 502, 3000);
+LobotSerialServoMove(5, 498, 3000);
+LobotSerialServoMove(6, 502, 3000);
+LobotSerialServoMove(7, 540, 3000);
+LobotSerialServoMove(8, 425, 3000);
+LobotSerialServoMove(9, 388, 3000);
+LobotSerialServoMove(10, 525, 3000);	
+servo_angle2(5);
+
 delay_ms(3005);
 }
 
+void raise_left_hands(void)
+{
+	LobotSerialServoMove(1, 510, 300);
+LobotSerialServoMove(2, 495, 300);
+LobotSerialServoMove(3, 502, 300);
+LobotSerialServoMove(4, 502, 300);
+LobotSerialServoMove(5, 498, 300);
+LobotSerialServoMove(6, 502, 300);
+LobotSerialServoMove(7, 540, 300);
+LobotSerialServoMove(8, 425, 300);
+LobotSerialServoMove(9, 388, 300);
+LobotSerialServoMove(10, 525, 300);
+
+delay_ms(305);
+
+
+LobotSerialServoMove(1, 510, 3000);
+LobotSerialServoMove(2, 495, 3000);
+LobotSerialServoMove(3, 502, 3000);
+LobotSerialServoMove(4, 502, 3000);
+LobotSerialServoMove(5, 498, 3000);
+LobotSerialServoMove(6, 502, 3000);
+LobotSerialServoMove(7, 540, 3000);
+LobotSerialServoMove(8, 425, 3000);
+LobotSerialServoMove(9, 388, 3000);
+LobotSerialServoMove(10, 525, 3000);	
+servo_angle3(5);
+
+delay_ms(3005);
+}
 void shift_head(void)
 {
 LobotSerialServoMove(1, 510, 600);
