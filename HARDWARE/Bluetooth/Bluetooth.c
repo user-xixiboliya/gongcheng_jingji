@@ -125,12 +125,12 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 			}
 			else if(Res=='2')//左转
 			{
-				Bend_straight_ahead();
+				zuozhuan1031();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='3')//右转
 			{
-				improved_straight();
+				youzhuan1031();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='4')//应该是举左手
@@ -141,16 +141,17 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 			else if(Res=='5')  //举右手
 			{	
 				raise_right_hands();
-				
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='6')  //抬左腿
 			{	
+				  left_foot();
 					USART_SendData(UART4,Res);
 			}
 			else if(Res=='7')  //抬右腿
 			{	
-				  right_foot();
+				 right_foot();
+				 USART_SendData(UART4,Res);
 			}
 			else if(Res=='8')  //举双手
 			{	
@@ -162,33 +163,32 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 				shift_head();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='0'/*&&i==0&&k==1&&f==0*/)  //右转
+			else if(Res=='0')  //跨越
 			{	
-				guizhong3();
-				yuandizuo2();
+				kuayue1031();
 				USART_SendData(UART4,Res);
 			}
-			else if(Res=='7'/*&&i==0&&k==1&&f==0*/)  //右转
-			{	
-				guizhong3();
-				yuandiyou();
-			
-				USART_SendData(UART4,Res);
-			}
-			else if(Res=='8'/*&&i==0&&k==1*/)//直道左转
-			{	
-				zuozhuanzhi();
-				//yuandizuo2();
-				USART_SendData(UART4,Res);
-				//f=1;
-			}
-			else if(Res=='9'/*&&i==0&&k==1*/)//直道右转
-			{	
-				youzhuanzhi();
-				//yuandiyou();
-				USART_SendData(UART4,Res);
-				//f=1;
-			}
+//			else if(Res=='7'/*&&i==0&&k==1&&f==0*/)  //右转
+//			{	
+//				guizhong3();
+//				yuandiyou();
+//			
+//				USART_SendData(UART4,Res);
+//			}
+//			else if(Res=='8'/*&&i==0&&k==1*/)//直道左转
+//			{	
+//				zuozhuanzhi();
+//				//yuandizuo2();
+//				USART_SendData(UART4,Res);
+//				//f=1;
+//			}
+//			else if(Res=='9'/*&&i==0&&k==1*/)//直道右转
+//			{	
+//				youzhuanzhi();
+//				//yuandiyou();
+//				USART_SendData(UART4,Res);
+//				//f=1;
+//			}
 
 			USART_RX_STA=0;
 		

@@ -45,3 +45,6 @@ void raise_both_hands(void);
 void shift_head(void);
 void raise_right_hands(void);
 void raise_left_hands(void);
+void zuozhuan1031(void);
+void youzhuan1031(void);
+void kuayue1031(void);

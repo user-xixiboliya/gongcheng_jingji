@@ -35,18 +35,6 @@ int main(void)
 	Uart4_init(9600);
 	LED0=0;
 	LED1=0;
-	
-	servo_angle4(90);
-	servo_angle3(90);
-	servo_angle2(40);
-	servo_angle1(40);
-	delay_ms(805); 
-	servo_angle4(10);
-	servo_angle3(10);
-	servo_angle2(100);
-	servo_angle1(80);
-	 delay_ms(805); 
-
   while(1)
 	{
 	delay_ms(3000);
