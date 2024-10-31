@@ -125,7 +125,7 @@ void USART1_IRQHandler(void)                	//串口1中断服务程序
 			}
 			else if(Res=='2')//左转
 			{
-				zuozhuan1031();
+				zuozhuan1031_rubbish();
 				USART_SendData(UART4,Res);
 			}
 			else if(Res=='3')//右转

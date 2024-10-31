@@ -684,23 +684,36 @@ LobotSerialServoMove(6, 498, 200);
 LobotSerialServoMove(7, 505, 200);
 LobotSerialServoMove(8, 500, 200);
 LobotSerialServoMove(9, 503, 200);
-LobotSerialServoMove(10,497, 200);
+LobotSerialServoMove(10, 497, 200);
 delay_ms(205);
 
-// #1 P492 #2 P505 #3 P507 #4 P501 #5 P510 #6 P498 #7 P509 #8 P620 #9 P585 #10 P501
-LobotSerialServoMove(1, 492, 500);
-LobotSerialServoMove(2, 505, 500);
-LobotSerialServoMove(3, 507, 500);
-LobotSerialServoMove(4, 501, 500);
-LobotSerialServoMove(5, 510, 500);
-LobotSerialServoMove(6, 498, 500);
-LobotSerialServoMove(7, 509, 500);
-LobotSerialServoMove(8, 620, 500);
-LobotSerialServoMove(9, 585, 500);
-LobotSerialServoMove(10, 501, 500);
-delay_ms(505);
+// #1 P492 #2 P505 #3 P507 #4 P501 #5 P510 #6 P498 #7 P509 #8 P620 #9 P610 #10 P520
+LobotSerialServoMove(1, 492, 150);
+LobotSerialServoMove(2, 505, 150);
+LobotSerialServoMove(3, 507, 150);
+LobotSerialServoMove(4, 501, 150);
+LobotSerialServoMove(5, 510, 150);
+LobotSerialServoMove(6, 498, 150);
+LobotSerialServoMove(7, 509, 150);
+LobotSerialServoMove(8, 620, 150);
+LobotSerialServoMove(9, 610, 150);
+LobotSerialServoMove(10, 520, 150);
+delay_ms(155);
 
-// #1 P495 #2 P505 #3 P500 #4 P715 #5 P506 #6 P498 #7 P506 #8 P500 #9 P600 #10 P498
+// #1 P492 #2 P505 #3 P507 #4 P501 #5 P510 #6 P498 #7 P509 #8 P620 #9 P610 #10 P520
+LobotSerialServoMove(1, 492, 300);
+LobotSerialServoMove(2, 505, 300);
+LobotSerialServoMove(3, 507, 300);
+LobotSerialServoMove(4, 501, 300);
+LobotSerialServoMove(5, 510, 300);
+LobotSerialServoMove(6, 498, 300);
+LobotSerialServoMove(7, 509, 300);
+LobotSerialServoMove(8, 620, 300);
+LobotSerialServoMove(9, 610, 300);
+LobotSerialServoMove(10, 520, 300);
+delay_ms(305);
+
+// #1 P495 #2 P505 #3 P500 #4 P715 #5 P506 #6 P498 #7 P506 #8 P500 #9 P610 #10 P498
 LobotSerialServoMove(1, 495, 500);
 LobotSerialServoMove(2, 505, 500);
 LobotSerialServoMove(3, 500, 500);
@@ -709,24 +722,24 @@ LobotSerialServoMove(5, 506, 500);
 LobotSerialServoMove(6, 498, 500);
 LobotSerialServoMove(7, 506, 500);
 LobotSerialServoMove(8, 500, 500);
-LobotSerialServoMove(9, 600, 500);
+LobotSerialServoMove(9, 610, 500);
 LobotSerialServoMove(10, 498, 500);
 delay_ms(505);
 
-// #1 P495 #2 P505 #3 P500 #4 P715 #5 P506 #6 P498 #7 P506 #8 P500 #9 P600 #10 P498
-LobotSerialServoMove(1, 495, 3500);
-LobotSerialServoMove(2, 505, 3500);
-LobotSerialServoMove(3, 500, 3500);
-LobotSerialServoMove(4, 715, 3500);
-LobotSerialServoMove(5, 506, 3500);
-LobotSerialServoMove(6, 498, 3500);
-LobotSerialServoMove(7, 506, 3500);
-LobotSerialServoMove(8, 500, 3500);
-LobotSerialServoMove(9, 600, 3500);
-LobotSerialServoMove(10, 498,3500);
-delay_ms(3505);
+// #1 P495 #2 P505 #3 P500 #4 P715 #5 P506 #6 P498 #7 P506 #8 P500 #9 P610 #10 P498
+LobotSerialServoMove(1, 495, 3000);
+LobotSerialServoMove(2, 505, 3000);
+LobotSerialServoMove(3, 500, 3000);
+LobotSerialServoMove(4, 715, 3000);
+LobotSerialServoMove(5, 506, 3000);
+LobotSerialServoMove(6, 498, 3000);
+LobotSerialServoMove(7, 506, 3000);
+LobotSerialServoMove(8, 500, 3000);
+LobotSerialServoMove(9, 610, 3000);
+LobotSerialServoMove(10, 498, 3000);
+delay_ms(3005);
 
-// #1 P494 #2 P504 #3 P500 #4 P499 #5 P505 #6 P498 #7 P505 #8 P425 #9 P600 #10 P497
+// #1 P494 #2 P504 #3 P500 #4 P499 #5 P505 #6 P498 #7 P505 #8 P425 #9 P610 #10 P497
 LobotSerialServoMove(1, 494, 500);
 LobotSerialServoMove(2, 504, 500);
 LobotSerialServoMove(3, 500, 500);
@@ -735,7 +748,7 @@ LobotSerialServoMove(5, 505, 500);
 LobotSerialServoMove(6, 498, 500);
 LobotSerialServoMove(7, 505, 500);
 LobotSerialServoMove(8, 425, 500);
-LobotSerialServoMove(9, 600, 500);
+LobotSerialServoMove(9, 610, 500);
 LobotSerialServoMove(10, 497, 500);
 delay_ms(505);
 
@@ -751,7 +764,6 @@ LobotSerialServoMove(8, 500, 500);
 LobotSerialServoMove(9, 503, 500);
 LobotSerialServoMove(10, 497, 500);
 delay_ms(505);
-
 
 
 }
@@ -772,20 +784,20 @@ LobotSerialServoMove(9, 503, 200);
 LobotSerialServoMove(10, 498, 200);
 delay_ms(205);
 
-// #1 P496 #2 P507 #3 P506 #4 P504 #5 P504 #6 P497 #7 P505 #8 P445 #9 P385 #10 P504
-LobotSerialServoMove(1, 496, 500);
-LobotSerialServoMove(2, 507, 500);
-LobotSerialServoMove(3, 506, 500);
-LobotSerialServoMove(4, 504, 500);
-LobotSerialServoMove(5, 504, 500);
-LobotSerialServoMove(6, 497, 500);
-LobotSerialServoMove(7, 505, 500);
-LobotSerialServoMove(8, 445, 500);
-LobotSerialServoMove(9, 385, 500);
-LobotSerialServoMove(10, 504, 500);
-delay_ms(505);
+// #1 P496 #2 P507 #3 P506 #4 P504 #5 P504 #6 P497 #7 P505 #8 P390 #9 P385 #10 P504
+LobotSerialServoMove(1, 496, 200);
+LobotSerialServoMove(2, 507, 200);
+LobotSerialServoMove(3, 506, 200);
+LobotSerialServoMove(4, 504, 200);
+LobotSerialServoMove(5, 504, 200);
+LobotSerialServoMove(6, 497, 200);
+LobotSerialServoMove(7, 505, 200);
+LobotSerialServoMove(8, 390, 200);
+LobotSerialServoMove(9, 385, 200);
+LobotSerialServoMove(10, 504, 200);
+delay_ms(205);
 
-// #1 P497 #2 P505 #3 P742 #4 P505 #5 P502 #6 P495 #7 P505 #8 P420 #9 P494 #10 P504
+// #1 P497 #2 P505 #3 P742 #4 P505 #5 P502 #6 P495 #7 P505 #8 P394 #9 P494 #10 P504
 LobotSerialServoMove(1, 497, 500);
 LobotSerialServoMove(2, 505, 500);
 LobotSerialServoMove(3, 742, 500);
@@ -793,23 +805,23 @@ LobotSerialServoMove(4, 505, 500);
 LobotSerialServoMove(5, 502, 500);
 LobotSerialServoMove(6, 495, 500);
 LobotSerialServoMove(7, 505, 500);
-LobotSerialServoMove(8, 420, 500);
+LobotSerialServoMove(8, 394, 500);
 LobotSerialServoMove(9, 494, 500);
 LobotSerialServoMove(10, 504, 500);
 delay_ms(505);
 
 // #1 P497 #2 P505 #3 P742 #4 P505 #5 P502 #6 P495 #7 P505 #8 P394 #9 P494 #10 P504
-LobotSerialServoMove(1, 497, 3500);
-LobotSerialServoMove(2, 505, 3500);
-LobotSerialServoMove(3, 742, 3500);
-LobotSerialServoMove(4, 505, 3500);
-LobotSerialServoMove(5, 502, 3500);
-LobotSerialServoMove(6, 495, 3500);
-LobotSerialServoMove(7, 505, 3500);
-LobotSerialServoMove(8, 394, 3500);
-LobotSerialServoMove(9, 494, 3500);
-LobotSerialServoMove(10, 504,3500);
-delay_ms(3505);
+LobotSerialServoMove(1, 497, 3000);
+LobotSerialServoMove(2, 505, 3000);
+LobotSerialServoMove(3, 742, 3000);
+LobotSerialServoMove(4, 505, 3000);
+LobotSerialServoMove(5, 502, 3000);
+LobotSerialServoMove(6, 495, 3000);
+LobotSerialServoMove(7, 505, 3000);
+LobotSerialServoMove(8, 394, 3000);
+LobotSerialServoMove(9, 494, 3000);
+LobotSerialServoMove(10, 504, 3000);
+delay_ms(3005);
 
 // #1 P496 #2 P507 #3 P506 #4 P504 #5 P504 #6 P497 #7 P505 #8 P390 #9 P385 #10 P504
 LobotSerialServoMove(1, 496, 500);
@@ -2164,8 +2176,8 @@ delay_ms(405);
 }
 void zuozhuan1031(void)
 {
-	// #1 P500 #2 P500 #3 P502 #4 P502 #5 P498 #6 P502 #7 P540 #8 P425 #9 P388 #10 P525
-LobotSerialServoMove(1, 500, 200);
+// #1 P482 #2 P500 #3 P502 #4 P502 #5 P498 #6 P502 #7 P540 #8 P425 #9 P388 #10 P525
+LobotSerialServoMove(1, 482, 200);
 LobotSerialServoMove(2, 500, 200);
 LobotSerialServoMove(3, 502, 200);
 LobotSerialServoMove(4, 502, 200);
@@ -2255,8 +2267,8 @@ LobotSerialServoMove(9, 560, 50);
 LobotSerialServoMove(10, 490, 50);
 delay_ms(55);
 
-// #1 P500 #2 P470 #3 P504 #4 P556 #5 P456 #6 P502 #7 P577 #8 P513 #9 P532 #10 P475
-LobotSerialServoMove(1, 500, 100);
+// #1 P482 #2 P470 #3 P504 #4 P556 #5 P456 #6 P502 #7 P577 #8 P513 #9 P532 #10 P475
+LobotSerialServoMove(1, 482, 100);
 LobotSerialServoMove(2, 470, 100);
 LobotSerialServoMove(3, 504, 100);
 LobotSerialServoMove(4, 556, 100);
@@ -2267,7 +2279,6 @@ LobotSerialServoMove(8, 513, 100);
 LobotSerialServoMove(9, 532, 100);
 LobotSerialServoMove(10, 475, 100);
 delay_ms(105);
-
 }
 void youzhuan1031(void)
 {
@@ -2441,6 +2452,113 @@ LobotSerialServoMove(7, 504, 100);
 LobotSerialServoMove(8, 501, 100);
 LobotSerialServoMove(9, 503, 100);
 LobotSerialServoMove(10, 505, 100);
+delay_ms(105);
+
+}
+void zuozhuan1031_rubbish(void)
+{
+	// #1 P482 #2 P450 #3 P502 #4 P502 #5 P498 #6 P502 #7 P540 #8 P425 #9 P388 #10 P525
+LobotSerialServoMove(1, 482, 200);
+LobotSerialServoMove(2, 450, 200);
+LobotSerialServoMove(3, 502, 200);
+LobotSerialServoMove(4, 502, 200);
+LobotSerialServoMove(5, 498, 200);
+LobotSerialServoMove(6, 502, 200);
+LobotSerialServoMove(7, 540, 200);
+LobotSerialServoMove(8, 425, 200);
+LobotSerialServoMove(9, 388, 200);
+LobotSerialServoMove(10, 525, 200);
+delay_ms(205);
+
+// #1 P475 #2 P470 #3 P545 #4 P440 #5 P498 #6 P498 #7 P501 #8 P429 #9 P445 #10 P557
+LobotSerialServoMove(1, 475, 125);
+LobotSerialServoMove(2, 470, 125);
+LobotSerialServoMove(3, 545, 125);
+LobotSerialServoMove(4, 440, 125);
+LobotSerialServoMove(5, 498, 125);
+LobotSerialServoMove(6, 498, 125);
+LobotSerialServoMove(7, 501, 125);
+LobotSerialServoMove(8, 429, 125);
+LobotSerialServoMove(9, 445, 125);
+LobotSerialServoMove(10, 557, 125);
+delay_ms(130);
+
+// #1 P475 #2 P470 #3 P502 #4 P395 #5 P498 #6 P498 #7 P490 #8 P470 #9 P445 #10 P557
+LobotSerialServoMove(1, 475, 50);
+LobotSerialServoMove(2, 470, 50);
+LobotSerialServoMove(3, 502, 50);
+LobotSerialServoMove(4, 395, 50);
+LobotSerialServoMove(5, 498, 50);
+LobotSerialServoMove(6, 498, 50);
+LobotSerialServoMove(7, 490, 50);
+LobotSerialServoMove(8, 470, 50);
+LobotSerialServoMove(9, 445, 50);
+LobotSerialServoMove(10, 557, 50);
+delay_ms(55);
+
+// #1 P475 #2 P470 #3 P503 #4 P424 #5 P496 #6 P499 #7 P501 #8 P495 #9 P498 #10 P558
+LobotSerialServoMove(1, 475, 100);
+LobotSerialServoMove(2, 470, 100);
+LobotSerialServoMove(3, 503, 100);
+LobotSerialServoMove(4, 424, 100);
+LobotSerialServoMove(5, 496, 100);
+LobotSerialServoMove(6, 499, 100);
+LobotSerialServoMove(7, 501, 100);
+LobotSerialServoMove(8, 495, 100);
+LobotSerialServoMove(9, 498, 100);
+LobotSerialServoMove(10, 558, 100);
+delay_ms(105);
+
+// #1 P475 #2 P470 #3 P503 #4 P424 #5 P496 #6 P499 #7 P525 #8 P670 #9 P585 #10 P605
+LobotSerialServoMove(1, 475, 200);
+LobotSerialServoMove(2, 470, 200);
+LobotSerialServoMove(3, 503, 200);
+LobotSerialServoMove(4, 424, 200);
+LobotSerialServoMove(5, 496, 200);
+LobotSerialServoMove(6, 499, 200);
+LobotSerialServoMove(7, 525, 200);
+LobotSerialServoMove(8, 670, 200);
+LobotSerialServoMove(9, 585, 200);
+LobotSerialServoMove(10, 605, 200);
+delay_ms(205);
+
+// #1 P475 #2 P450 #3 P475 #4 P556 #5 P499 #6 P501 #7 P544 #8 P566 #9 P600 #10 P470
+LobotSerialServoMove(1, 475, 125);
+LobotSerialServoMove(2, 450, 125);
+LobotSerialServoMove(3, 475, 125);
+LobotSerialServoMove(4, 556, 125);
+LobotSerialServoMove(5, 499, 125);
+LobotSerialServoMove(6, 501, 125);
+LobotSerialServoMove(7, 544, 125);
+LobotSerialServoMove(8, 566, 125);
+LobotSerialServoMove(9, 600, 125);
+LobotSerialServoMove(10, 470, 125);
+delay_ms(130);
+
+// #1 P475 #2 P450 #3 P475 #4 P556 #5 P499 #6 P501 #7 P544 #8 P566 #9 P560 #10 P490
+LobotSerialServoMove(1, 475, 50);
+LobotSerialServoMove(2, 450, 50);
+LobotSerialServoMove(3, 475, 50);
+LobotSerialServoMove(4, 556, 50);
+LobotSerialServoMove(5, 499, 50);
+LobotSerialServoMove(6, 501, 50);
+LobotSerialServoMove(7, 544, 50);
+LobotSerialServoMove(8, 566, 50);
+LobotSerialServoMove(9, 560, 50);
+LobotSerialServoMove(10, 490, 50);
+delay_ms(55);
+
+// #1 P482 #2 P450 #3 P504 #4 P556 #5 P456 #6 P502 #7 P577 #8 P513 #9 P532 #10 P475
+LobotSerialServoMove(1, 482, 100);
+LobotSerialServoMove(2, 450, 100);
+LobotSerialServoMove(3, 504, 100);
+LobotSerialServoMove(4, 556, 100);
+LobotSerialServoMove(5, 456, 100);
+LobotSerialServoMove(6, 502, 100);
+LobotSerialServoMove(7, 577, 100);
+LobotSerialServoMove(8, 513, 100);
+LobotSerialServoMove(9, 532, 100);
+LobotSerialServoMove(10, 475, 100);
 delay_ms(105);
 
 }

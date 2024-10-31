@@ -48,3 +48,4 @@ void raise_left_hands(void);
 void zuozhuan1031(void);
 void youzhuan1031(void);
 void kuayue1031(void);
+void zuozhuan1031_rubbish(void);
